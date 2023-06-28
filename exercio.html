@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio HTML e JavaScript</title>
+    <link rel="stylesheet" href="./exercicio.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>EXERCÍCIO</h1>
+        <h2>Campos Numéricos</h2>
+        <p>
+            O número do campo B tem que ser maior que o do campoo A:
+        </p>
+        <form id="form-calculate">
+            <input id="first-number" type="number" required placeholder="campo A"/>
+            <p class="error">
+                O número do campo A não pode ser maior que o do campo B
+            </p>
+            <input id="second-number" type="number" required placeholder="campo B"/>
+            <button type="submit" value="=">Concluido</button>
+            <p class="finalResult">
+                Sucesso
+            </p>
+        </form>
+    </div>
+    <script src="./exercicio.js"></script>
+</body>
+</html>
